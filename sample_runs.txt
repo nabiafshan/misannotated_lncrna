@@ -1,0 +1,12 @@
+How to go from start to finish with this project.
+
+1. Preprocess the external data from CPPred into a numeric format. 
+    `python3 src/data/preprocess.py -i data/external/cppred -o data/interim`
+
+2. While doing this, you might as well checkout `notebooks/01_eda_sequences.ipynb`
+    which explores all this data.
+
+3. Get 3-mer and 6-mer embeddings from dna2vec
+    `python3 src/data/get_embeddings.py -i data/external/dna2vec/ -o data/processed/`
+
+4. 
