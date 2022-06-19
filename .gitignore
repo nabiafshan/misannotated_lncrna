@@ -129,8 +129,10 @@ dmypy.json
 .pyre/
 
 
-# data folder
+# folders
 /data
+# venv
+/misannotated-lncrna 
 
 # ds store
 .DS_Store

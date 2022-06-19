@@ -1,6 +1,17 @@
 misannotated_lncrna
 ==============================
 
+# To-do
+* get the final candidates
+  * using new cutoffs
+  * is the new transformer model better than the old one?
+    * get architectures for both
+    * evaluate on test data
+      * write an evaluation notebook for all the models that is reproducible
+      * all models have separate files py that are callable
+
+
+
 A short description of the project.
 
 Project Organization
